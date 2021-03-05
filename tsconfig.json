@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "esNext",
+        "target": "ES2019",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src/",
+        "paths": {
+            "*": ["@types/*"],
+            "~/*": ["*"]
+        },
+        "outDir": "./dist/",
+        "allowJs": true
+    },
+    "exclude": ["./node_modules"],
+    "strict": true
+}
